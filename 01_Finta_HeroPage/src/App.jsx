@@ -5,12 +5,11 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { Container } from './components/Container'
 import { NavBar } from './components/NavBar'
+import { Home } from './HomePage'
 
 function App() {
   return (
-    <Container>
-      <NavBar />
-    </Container>
+    <Home />
   )
 }
 
