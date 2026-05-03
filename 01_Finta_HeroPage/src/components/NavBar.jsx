@@ -39,8 +39,8 @@ export function NavBar() {
     )
 }
 
-function Btn({ title }) {
+export function Btn({ title }) {
     return (
-        <button className="bg-blue-500 px-4 py-2 text-neutral-100 font-bold rounded-lg text-sm cursor-pointer hover:bg-blue-700/80">{title}</button>
+        <button className="bg-blue-500 px-4 py-2 text-neutral-100 font-bold rounded-lg text-sm text-shadow-xs shadow-md  cursor-pointer hover:bg-blue-700/80">{title}</button>
     )
 }
